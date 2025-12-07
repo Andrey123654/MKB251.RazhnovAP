@@ -92,6 +92,7 @@ credit_account = CreditAccount(account_holder: str, balance: float = 0, credit_l
 История операций сохраняется в структурированном виде:
 
 operation = {
+    
     "type": "deposit",           # Тип операции
     "amount": 1000.0,            # Сумма
     "datetime": "2024-01-15 14:30:25",  # Дата и время
