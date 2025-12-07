@@ -64,13 +64,6 @@ account = Account(account_holder: str, balance: float = 0)
 
     get_history(formatted: bool = False) - Получение истории операций
 
-Пример:
-
-account = Account("Дмитрий", 5000.0)
-account.deposit(1000.0)        # Успешно
-account.withdraw(2000.0)       # Успешно
-account.withdraw(5000.0)       # Неуспешно (недостаточно средств)
-print(account.get_balance())   # 4000.0
 
 Класс CreditAccount
 
