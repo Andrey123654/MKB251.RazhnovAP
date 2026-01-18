@@ -40,4 +40,3 @@ git checkout -b [имя] 	Создание и переключение 	git chec
 git push -u origin [имя] 	Публикация ветки 	git push -u origin feature/login
 git branch -d [имя] 	Удаление локальной ветки 	git branch -d feature/login
 git push origin --delete [имя] 	Удаление удаленной ветки 	git push origin --delete feature/login 
-Источник - Школа английского языка Skyeng: https://skyeng.ru/it-industry/it/kak-sozdat-novuyu-vetku-v-github-poshagovoye-rukovodstvo/
