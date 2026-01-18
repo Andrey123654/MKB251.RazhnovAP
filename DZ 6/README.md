@@ -51,3 +51,9 @@ git push origin --delete [имя] 	Удаление удаленной ветк�
 <img width="1650" height="629" alt="изображение" src="https://github.com/user-attachments/assets/0999f7a3-ddeb-4701-86ef-047994e4e035" />
 
 
+Версия 5.
+Приведен скрин с GitHub
+
+<img width="1702" height="711" alt="изображение" src="https://github.com/user-attachments/assets/45b0f4da-c831-4e45-af6c-d9e6f24c7e83" />
+
+
