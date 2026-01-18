@@ -44,3 +44,10 @@ git push origin --delete [имя] 	Удаление удаленной ветк�
 Версия 3. 
 <img width="1141" height="421" alt="изображение" src="https://github.com/user-attachments/assets/c20d829b-36a8-4ebf-b2b3-b73308acdc4a" />
 
+
+Версия 4. 
+Был сделан Pull Request и Merge
+
+<img width="1650" height="629" alt="изображение" src="https://github.com/user-attachments/assets/0999f7a3-ddeb-4701-86ef-047994e4e035" />
+
+
