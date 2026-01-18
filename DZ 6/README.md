@@ -40,3 +40,7 @@ git checkout -b [имя] 	Создание и переключение 	git chec
 git push -u origin [имя] 	Публикация ветки 	git push -u origin feature/login
 git branch -d [имя] 	Удаление локальной ветки 	git branch -d feature/login
 git push origin --delete [имя] 	Удаление удаленной ветки 	git push origin --delete feature/login 
+
+Версия 3. 
+<img width="1141" height="421" alt="изображение" src="https://github.com/user-attachments/assets/c20d829b-36a8-4ebf-b2b3-b73308acdc4a" />
+
