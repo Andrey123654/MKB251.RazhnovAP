@@ -1,0 +1,35 @@
+﻿EventCode,ComputerName,user,date_hour,Suspicious_Reason
+4688,we3436srv.waynecorpinc.local,we3436srv$,22,Создание процесса
+4689,we1159srv.waynecorpinc.local,we1159srv$,22,Завершение процесса
+4624,we9028srv.waynecorpinc.local,we9028srv$,22,Успешный вход (сетевой)
+4703,we5878srv.waynecorpinc.local,we5878srv$,22,Изменение прав
+4703,we3997srv.waynecorpinc.local,we3997srv$,22,Изменение прав
+4703,we9269srv.waynecorpinc.local,we9269srv$,22,Изменение прав
+4689,we7127srv.waynecorpinc.local,we7127srv$,22,Завершение процесса
+4688,we5689srv.waynecorpinc.local,-,22,Создание процесса
+4703,we1662srv.waynecorpinc.local,we1662srv$,22,Изменение прав
+4688,we3652srv.waynecorpinc.local,we3652srv$,22,Создание процесса
+4689,we5156srv.waynecorpinc.local,we5156srv$,22,Завершение процесса
+4688,we7006srv.waynecorpinc.local,we7006srv$,22,Создание процесса
+4688,we8229srv.waynecorpinc.local,-,22,Создание процесса
+4688,we8592srv.waynecorpinc.local,-,22,Создание процесса
+4689,we6406srv.waynecorpinc.local,we6406srv$,22,Завершение процесса
+4703,we9390srv.waynecorpinc.local,we9390srv$,22,Изменение прав
+4688,we9054srv.waynecorpinc.local,we9054srv$,22,Создание процесса; Запуск PowerShell
+4703,we9390srv.waynecorpinc.local,we9390srv$,22,Изменение прав
+4624,we4664srv.waynecorpinc.local,we4664srv$,22,Успешный вход (сетевой)
+4688,we2419srv.waynecorpinc.local,we2419srv$,22,Создание процесса
+4689,we6908srv.waynecorpinc.local,we6908srv$,22,Завершение процесса
+4689,we2813srv.waynecorpinc.local,we2813srv$,22,Завершение процесса
+4703,we8018srv.waynecorpinc.local,we8018srv$,22,Изменение прав
+4703,we7075srv.waynecorpinc.local,we7075srv$,22,Изменение прав
+4703,we4837srv.waynecorpinc.local,we4837srv$,22,Изменение прав
+4689,we4404srv.waynecorpinc.local,we4404srv$,22,Завершение процесса
+4689,we8153srv.waynecorpinc.local,we8153srv$,22,Завершение процесса
+4689,we6867srv.waynecorpinc.local,we6867srv$,22,Завершение процесса
+4689,we5364srv.waynecorpinc.local,we5364srv$,22,Завершение процесса
+4703,we1159srv.waynecorpinc.local,we1159srv$,22,Изменение прав
+4688,we3134srv.waynecorpinc.local,we3134srv$,22,Создание процесса
+4703,we8670srv.waynecorpinc.local,we8670srv$,22,Изменение прав
+4703,we7887srv.waynecorpinc.local,we7887srv$,22,Изменение прав
+4624,we8382srv.waynecorpinc.local,we8382srv$,22,Успешный вход (сетевой)
