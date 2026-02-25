@@ -1,0 +1,40 @@
+{
+  "os": "Windows 7 SP1 64-bit",
+  "total_processes": 41,
+  "total_connections": 96,
+  "svchost_count": 11,
+  "svchost_pids": [
+    "896",
+    "1408",
+    "296",
+    "812",
+    "940",
+    "700",
+    "2632",
+    "852",
+    "2008",
+    "1248",
+    "612"
+  ],
+  "infected_svchost": [
+    "296",
+    "812",
+    "2008"
+  ],
+  "port_135_140_connections": 6,
+  "port_135_140_pids": [
+    "700",
+    "4"
+  ],
+  "malfind_pids": [
+    "2824",
+    "1204",
+    "1288",
+    "1144",
+    "296",
+    "2368",
+    "812",
+    "2008"
+  ],
+  "command_line": "1920\tcmd.exe\t\"C:\\Windows\\System32\\cmd.exe\" "
+}
