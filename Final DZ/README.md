@@ -54,17 +54,20 @@ collections.Counter	Подсчет частоты элементов
     Логи Nessus - SSH атаки и уязвимости (формат syslog)
 
 4.2. Модули и их функции
+
 Модуль/Класс	Метод	Функция
+
 ThreatAnalyzer	load_suricata_alerts()	Загрузка JSON-логов Suricata
+
 	parse_nessus_logs()	Парсинг syslog-логов Nessus
 	analyze_threats()	Выявление угроз из данных
 	check_ip_virustotal()	Проверка IP через VirusTotal
 	enrich_with_virustotal()	Обогащение данных
 	run()	Запуск полного анализа
-IncidentResponder	respond()	Имитация блокировки IP и уведомлений
-ReportGenerator	save_reports()	Сохранение JSON и CSV отчетов
+	IncidentResponder	respond()	Имитация блокировки IP и уведомлений
+	ReportGenerator	save_reports()	Сохранение JSON и CSV отчетов
 	create_visualizations()	Создание PNG графиков
-main	main()	Оркестрация всех этапов
+	main	main()	Оркестрация всех этапов
 
 5. ДЕТАЛЬНОЕ ОПИСАНИЕ ФУНКЦИЙ
 5.1. Класс ThreatAnalyzer
