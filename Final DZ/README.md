@@ -57,8 +57,9 @@ collections.Counter	Подсчет частоты элементов
 
 Модуль/Класс	Метод	Функция
 
-ThreatAnalyzer	load_suricata_alerts()	Загрузка JSON-логов Suricata
+ThreatAnalyzer	
 
+	load_suricata_alerts()	Загрузка JSON-логов Suricata
 	parse_nessus_logs()	Парсинг syslog-логов Nessus
 	analyze_threats()	Выявление угроз из данных
 	check_ip_virustotal()	Проверка IP через VirusTotal
